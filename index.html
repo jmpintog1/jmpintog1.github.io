@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José Miguel Pinto Guerrero | Learning Experience Designer & STEM Content Lead</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#fdf2f4',
+                            100: '#fce7eb',
+                            600: '#9e2437',
+                            700: '#801e2d',
+                            800: '#6b1b28',
+                            900: '#5a1924',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-brand-700 selection:text-white">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="font-bold text-slate-900 tracking-tight flex items-center gap-2">
+                <span class="w-2.5 h-2.5 rounded-full bg-brand-700"></span>
+                <span>JMPG <span class="text-slate-400 font-normal">| EdTech Portfolio</span></span>
+            </a>
+            <div class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600">
+                <a href="#casos" class="hover:text-brand-700 transition-colors">Casos de Estudio</a>
+                <a href="#metodologia" class="hover:text-brand-700 transition-colors">Enfoque LXD</a>
+                <a href="#stack" class="hover:text-brand-700 transition-colors">Stack Técnico</a>
+                <a href="#contacto" class="px-4 py-2 rounded-lg bg-brand-700 text-white hover:bg-brand-800 transition-colors">Contactar</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-white border-b border-slate-200">
+        <div class="max-w-5xl mx-auto px-6 py-16 md:py-24">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-50 border border-brand-100 text-brand-700 text-xs font-semibold tracking-wide uppercase mb-6">
+                Learning Experience Designer &bull; STEM Content Lead
+            </div>
+            <h1 class="text-4xl md:text-5xl font-bold text-slate-900 tracking-tight leading-tight max-w-3xl">
+                Transformando conceptos científicos complejos en experiencias de aprendizaje interactivas y escalables.
+            </h1>
+            <p class="mt-6 text-lg text-slate-600 leading-relaxed max-w-2xl">
+                Soy <strong>José Miguel Pinto Guerrero</strong>, Físico, Magíster en Ingeniería y docente universitario (USM). Combino rigor pedagógico y metodologías activas con desarrollo web, automatización con IA, producción audiovisual (<em>Kimu Aula</em>) y hardware educativo.
+            </p>
+            <div class="mt-8 flex flex-wrap items-center gap-4">
+                <a href="#casos" class="px-6 py-3 rounded-lg bg-brand-700 text-white font-medium hover:bg-brand-800 transition-all shadow-sm">
+                    Explorar Casos de Estudio
+                </a>
+                <a href="https://github.com/jmpintog1" target="_blank" rel="noopener" class="px-6 py-3 rounded-lg bg-white border border-slate-300 text-slate-700 font-medium hover:border-slate-400 hover:bg-slate-50 transition-all flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"/></svg>
+                    GitHub (@jmpintog1)
+                </a>
+            </div>
+
+            <!-- Quick Metrics / Highlights -->
+            <div class="mt-14 pt-8 border-t border-slate-100 grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div>
+                    <div class="text-2xl font-bold text-slate-900">+12 años</div>
+                    <div class="text-sm text-slate-500 mt-1">Docencia y coordinación STEM (USM)</div>
+                </div>
+                <div>
+                    <div class="text-2xl font-bold text-slate-900">4 Ecosistemas</div>
+                    <div class="text-sm text-slate-500 mt-1">Web, IA, Video y Robótica Física</div>
+                </div>
+                <div>
+                    <div class="text-2xl font-bold text-slate-900">Git-First</div>
+                    <div class="text-sm text-slate-500 mt-1">Currículo abierto y versionado</div>
+                </div>
+                <div>
+                    <div class="text-2xl font-bold text-slate-900">Aprendizaje Activo</div>
+                    <div class="text-sm text-slate-500 mt-1">Peer Instruction &amp; Analítica</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Case Studies Section -->
+    <main id="casos" class="max-w-5xl mx-auto px-6 py-16">
+        <div class="mb-12">
+            <h2 class="text-2xl md:text-3xl font-bold text-slate-900">Casos de Estudio y Productos Educativos</h2>
+            <p class="text-slate-600 mt-2">Cada proyecto responde a un cuello de botella real del aula mediante diseño instruccional y tecnología.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+
+            <!-- Case 1: Libro Interactivo -->
+            <article class="bg-white rounded-2xl border border-slate-200 p-7 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between gap-2 mb-4">
+                        <span class="px-2.5 py-1 rounded-md bg-blue-50 text-blue-700 font-mono text-xs font-medium">Producto Digital &bull; Open EdTech</span>
+                        <span class="text-xs text-slate-400 font-mono">GitHub Pages</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Libro Interactivo de Electromagnetismo y Simulaciones</h3>
+                    <div class="space-y-3 text-sm text-slate-600 leading-relaxed">
+                        <p><strong class="text-slate-800">Problema Pedagógico:</strong> Los textos tradicionales de física presentan campos vectoriales y circuitos como diagramas estáticos, dificultando la intuición espacial de los estudiantes.</p>
+                        <p><strong class="text-slate-800">Solución Diseñada:</strong> Creación de un libro de texto web abierto con simulaciones manipulables en tiempo real, integrando preguntas conceptuales de <em>Peer Instruction</em> y despliegue continuo mediante Git.</p>
+                    </div>
+                </div>
+                <div class="mt-6 pt-5 border-t border-slate-100 flex items-center justify-between">
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="px-2 py-0.5 bg-slate-100 text-slate-600 rounded text-xs font-mono">HTML/JS</span>
+                        <span class="px-2 py-0.5 bg-slate-100 text-slate-600 rounded text-xs font-mono">Simulación Física</span>
+                    </div>
+                    <a href="https://jmpintog1.github.io/electro/" target="_blank" rel="noopener" class="inline-flex items-center gap-1 text-sm font-semibold text-brand-700 hover:text-brand-800">
+                        Ver plataforma
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Case 2: Robótica NXT -->
+            <article class="bg-white rounded-2xl border border-slate-200 p-7 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between gap-2 mb-4">
+                        <span class="px-2.5 py-1 rounded-md bg-emerald-50 text-emerald-700 font-mono text-xs font-medium">Currículo STEM &bull; Hardware</span>
+                        <span class="text-xs text-slate-400 font-mono">K-12 &amp; Docente</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Laboratorios de Física Experimental con Robótica NXT</h3>
+                    <div class="space-y-3 text-sm text-slate-600 leading-relaxed">
+                        <p><strong class="text-slate-800">Problema Pedagógico:</strong> La robótica escolar suele quedarse en el armado mecánico sin conectar la programación con leyes físicas cuantitativas ni capacitar a los docentes.</p>
+                        <p><strong class="text-slate-800">Solución Diseñada:</strong> Módulos replicables (<em>Ecolocalización, Inercia, Telemetría MRU, Frenado Autónomo</em>) en lenguaje NXC con guías paso a paso y transferencia metodológica para profesores.</p>
+                    </div>
+                </div>
+                <div class="mt-6 pt-5 border-t border-slate-100 flex items-center justify-between">
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="px-2 py-0.5 bg-slate-100 text-slate-600 rounded text-xs font-mono">LEGO NXT</span>
+                        <span class="px-2 py-0.5 bg-slate-100 text-slate-600 rounded text-xs font-mono">NXC / Sensórica</span>
+                    </div>
+                    <a href="https://jmpintog1.github.io/nxt/intro.html" target="_blank" rel="noopener" class="inline-flex items-center gap-1 text-sm font-semibold text-brand-700 hover:text-brand-800">
+                        Explorar módulos
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Case 3: Evaluación con IA -->
+            <article class="bg-white rounded-2xl border border-slate-200 p-7 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between gap-2 mb-4">
+                        <span class="px-2.5 py-1 rounded-md bg-purple-50 text-purple-700 font-mono text-xs font-medium">AI in Education &bull; Analytics</span>
+                        <span class="text-xs text-slate-400 font-mono">Automatización</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Revisor Automatizado de Evaluaciones y Analítica Formativa</h3>
+                    <div class="space-y-3 text-sm text-slate-600 leading-relaxed">
+                        <p><strong class="text-slate-800">Problema Pedagógico:</strong> En cursos masivos de ingeniería, la retroalimentación escrita llega tarde y dificulta detectar patrones de error conceptual por cohorte.</p>
+                        <p><strong class="text-slate-800">Solución Diseñada:</strong> Aplicación web impulsada por IA y Visión Computacional que evalúa desarrollos manuscritos en PDF contra rúbricas estructuradas, entregando reportes individuales y métricas en CSV.</p>
+                    </div>
+                </div>
+                <div class="mt-6 pt-5 border-t border-slate-100 flex items-center justify-between">
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="px-2 py-0.5 bg-slate-100 text-slate-600 rounded text-xs font-mono">Python / Next.js</span>
+                        <span class="px-2 py-0.5 bg-slate-100 text-slate-600 rounded text-xs font-mono">Vision AI</span>
+                    </div>
+                    <span class="text-xs font-medium text-slate-500 italic">Demo disponible en entrevista</span>
+                </div>
+            </article>
+
+            <!-- Case 4: Kimu Aula -->
+            <article class="bg-white rounded-2xl border border-slate-200 p-7 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between gap-2 mb-4">
+                        <span class="px-2.5 py-1 rounded-md bg-amber-50 text-amber-700 font-mono text-xs font-medium">Microlearning &bull; Multimedia</span>
+                        <span class="text-xs text-slate-400 font-mono">Kimu Aula</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Cápsulas Audiovisuales y Animación Matemática Programada</h3>
+                    <div class="space-y-3 text-sm text-slate-600 leading-relaxed">
+                        <p><strong class="text-slate-800">Problema Pedagógico:</strong> Las clases grabadas tradicionales de 90 minutos tienen baja retención y sobrecarga cognitiva en el estudio autónomo.</p>
+                        <p><strong class="text-slate-800">Solución Diseñada:</strong> Producción de píldoras de aprendizaje estructuradas mediante guionización instruccional y animaciones vectoriales programadas en Python (<em>Manim</em>) para visualizar derivaciones y conservación de momento.</p>
+                    </div>
+                </div>
+                <div class="mt-6 pt-5 border-t border-slate-100 flex items-center justify-between">
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="px-2 py-0.5 bg-slate-100 text-slate-600 rounded text-xs font-mono">Manim / Python</span>
+                        <span class="px-2 py-0.5 bg-slate-100 text-slate-600 rounded text-xs font-mono">Guionización</span>
+                    </div>
+                    <a href="https://www.youtube.com/results?search_query=Kimu+Aula+fisica" target="_blank" rel="noopener" class="inline-flex items-center gap-1 text-sm font-semibold text-brand-700 hover:text-brand-800">
+                        Ver canal Kimu Aula
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                    </a>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <!-- Pedagogical Framework Section -->
+    <section id="metodologia" class="bg-white border-y border-slate-200 py-16">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-2xl font-bold text-slate-900 mb-2">Arquitectura de Diseño Instruccional</h2>
+            <p class="text-slate-600 mb-10">Cómo estructuro cualquier experiencia de aprendizaje digital o presencial:</p>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="p-6 rounded-xl bg-slate-50 border border-slate-200/80">
+                    <div class="w-8 h-8 rounded-lg bg-brand-700 text-white font-mono text-sm font-bold flex items-center justify-center mb-4">01</div>
+                    <h3 class="font-bold text-slate-900 mb-2">Activación y Prerrequisitos</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">Diagnóstico rápido antes de introducir formalismo matemático. Uso de preguntas conceptuales (<em>Peer Instruction</em>) para exponer y corregir modelos mentales erróneos.</p>
+                </div>
+                <div class="p-6 rounded-xl bg-slate-50 border border-slate-200/80">
+                    <div class="w-8 h-8 rounded-lg bg-brand-700 text-white font-mono text-sm font-bold flex items-center justify-center mb-4">02</div>
+                    <h3 class="font-bold text-slate-900 mb-2">Experimentación Tangible o Simulada</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">El estudiante manipula variables —ya sea en una simulación web interactiva o mediante sensores físicos Arduino/NXT— antes de resolver problemas algebraicos.</p>
+                </div>
+                <div class="p-6 rounded-xl bg-slate-50 border border-slate-200/80">
+                    <div class="w-8 h-8 rounded-lg bg-brand-700 text-white font-mono text-sm font-bold flex items-center justify-center mb-4">03</div>
+                    <h3 class="font-bold text-slate-900 mb-2">Retroalimentación y Analítica</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">Tickets de salida y rúbricas automatizadas que cierran el ciclo de aprendizaje, entregando métricas accionables tanto al estudiante como al equipo docente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="stack" class="max-w-5xl mx-auto px-6 py-16">
+        <h2 class="text-2xl font-bold text-slate-900 mb-8">Competencias y Stack Tecnológico</h2>
+        <div class="grid md:grid-cols-3 gap-6 text-sm">
+            <div class="bg-white p-6 rounded-xl border border-slate-200">
+                <h3 class="font-bold text-brand-700 uppercase tracking-wider text-xs mb-3">Pedagogía &amp; LXD</h3>
+                <ul class="space-y-2 text-slate-700">
+                    <li>&bull; Learning Experience Design (LXD)</li>
+                    <li>&bull; Peer Instruction &amp; Aprendizaje Activo</li>
+                    <li>&bull; Diseño Curricular STEM (K-12 y Superior)</li>
+                    <li>&bull; Evaluación Formativa y Rúbricas</li>
+                    <li>&bull; Microlearning y Guionización</li>
+                </ul>
+            </div>
+            <div class="bg-white p-6 rounded-xl border border-slate-200">
+                <h3 class="font-bold text-brand-700 uppercase tracking-wider text-xs mb-3">Desarrollo, IA &amp; Edición</h3>
+                <ul class="space-y-2 text-slate-700">
+                    <li>&bull; Python (Automatización, Analítica, Manim)</li>
+                    <li>&bull; HTML5, JavaScript, React, Tailwind CSS</li>
+                    <li>&bull; Git, GitHub Pages y Vercel</li>
+                    <li>&bull; IA Generativa y Visión Computacional</li>
+                    <li>&bull; LaTeX / TikZ para publicación técnica</li>
+                </ul>
+            </div>
+            <div class="bg-white p-6 rounded-xl border border-slate-200">
+                <h3 class="font-bold text-brand-700 uppercase tracking-wider text-xs mb-3">Hardware &amp; Infraestructura</h3>
+                <ul class="space-y-2 text-slate-700">
+                    <li>&bull; LEGO Mindstorms NXT (NXC)</li>
+                    <li>&bull; Arduino, Raspberry Pi y Sensórica IoT</li>
+                    <li>&bull; Linux (Debian) y Servidores Locales</li>
+                    <li>&bull; Home Assistant para telemetría</li>
+                    <li>&bull; Gestión de Laboratorios de Física</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contacto" class="bg-slate-900 text-slate-300 py-14">
+        <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+            <div>
+                <h2 class="text-2xl font-bold text-white">¿Conversamos sobre innovación educativa?</h2>
+                <p class="text-slate-400 mt-1 text-sm">Disponible para roles de Learning Experience Designer, STEM Content Lead y consultoría EdTech.</p>
+            </div>
+            <div class="flex flex-wrap gap-3 text-sm font-medium">
+                <a href="mailto:jmpintog@gmail.com" class="px-5 py-2.5 rounded-lg bg-brand-700 text-white hover:bg-brand-600 transition-colors">
+                    jmpintog@gmail.com
+                </a>
+                <a href="tel:+56976697241" class="px-5 py-2.5 rounded-lg bg-slate-800 text-slate-200 hover:bg-slate-700 transition-colors border border-slate-700">
+                    +56 9 7669 7241
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
